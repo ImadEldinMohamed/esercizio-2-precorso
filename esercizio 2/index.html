@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registrazione music app</title>
+
+    <style>
+body{
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    color: yellow;
+}
+
+h4 {
+    font-size: 25px;
+    color: blue;
+}
+
+ #logo {
+    width: 100%;
+    
+ }
+ 
+ button {
+    border-radius: 50px;
+    cursor: pointer;
+ }
+
+ button:hover {
+    background-color: chartreuse;
+ }
+    </style>
+</head>
+<body>
+    <figure>
+    <img src="assets/SL-123119-26540-43.jpg" alt="logo" id="logo"/>
+    <figcaption><a href="https://it.freepik.com/vettori-gratuito/sfondo-di-note-di-onde-sonore-pentagramma-musicale_18786659.htm#query=chiave%20musicale&position=6&from_view=keyword&track=ais">Immagine di starline</a> su Freepik</figcaption>
+    </figure>
+   
+    <form onsubmit="alert('registrazione inviata')">
+        <fieldset>
+            <legend><h1>COMPILA CON I TUOI DATI </h1></legend>
+   
+   <div>
+<input type="text" placeholder="il tuo nome"/>
+   </div>
+   <div>
+<input type="text" placeholder="il tuo cognome"/>
+ </div>
+<div>
+<input type="email" placeholder="la tua email"/>
+</div>
+<div>
+<input type="password" placeholder="inserisci la tua password"/>
+</div>
+<div>
+<input type="date" placeholder="data di nascita"/>
+</div>
+<div>
+<input type="number" placeholder="numero di telefono"/>
+</div>
+</fieldset>
+
+<div>
+   <h4>genere di musica preferita</h4>
+</div>
+<ul>
+<li>musica classica<input type="checkbox"/></li>
+<li>musica rock <input type="checkbox"/></li>
+<li>musica pop <input type="checkbox"/></li>
+<li>musica jazz <input type="checkbox"/> </li>
+<li>musica rap <input type="checkbox"/></li>
+<li>musica anni 80 <input type="checkbox"/></li>
+<li>musica anni 90 <input type="checkbox"/></li>
+</ul>
+<p>accetta <span style="color: blueviolet;"> le condizioni</span> del servizio<input type="radio"/></p>
+<button type="submit">invia registrazione</button>
+    </form>
+
+
+</body>
+</html>
